@@ -2,7 +2,7 @@
 
 https://super-learners.github.io/linux-network
 
-
-{% for page in site.pages %}
-[{{page.title}}](/linux-network{{page.url}})
+{% assign sorted_pages = site.pages | sort: "title" %}
+{% for page in sorted_pages %}
+[{{page.title}}]({{ page.url | prepend: site.baseurl }})
 {% endfor %}
