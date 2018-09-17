@@ -3,6 +3,6 @@
 https://super-learners.github.io/linux-network
 
 
-{% for post in site.posts %}
-[{{post.url}}]({{post.title}})
+{% for page in site.pages %}
+[{{page.url}}]({{page.title}})
 {% endfor %}
