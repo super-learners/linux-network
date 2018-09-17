@@ -1,3 +1,3 @@
 # linux-network
 
-https://super-learners.github.com/linux-network
+https://super-learners.github.io/linux-network
